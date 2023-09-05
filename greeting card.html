@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- CHETAN ANANDA REDDY KUKUTLA -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./greeting card.css">
+    
+</head>
+<body>
+    <div class="night">
+        
+            <div>
+            <h2 style="margin-top: 5%;">
+                <span style="--i:1;">H</span>
+                <span style="--i:2;">A</span>
+                <span style="--i:3;">P</span>
+                <span style="--i:4;">P</span>
+                <span style="--i:5;">Y</span>
+                <span style="--i:6;margin-left: 5vw;">E</span>
+                <span style="--i:7;">X</span>
+                <span style="--i:8;">A</span>
+                <span style="--i:9;">M</span>
+                <span style="--i:10;">P</span>
+                <span style="--i:11;">L</span>
+                <span style="--i:12;">E</span>
+                <span style="--i:13;">S</span>
+            </div>
+            <div class="home">
+                <section>
+                    <div class="container">
+                       <div class="row">
+                           <div class="home-text">
+                                <p class="animate-text">
+                                   <span style="--i:1;">"name1"</span>
+                                   <span style="--i:2;">"name2"</span>
+                                   <span style="--i:3;">"name3"</span>
+                                   <span style="--i:4;">"name4"</span>
+                                   <span style="--i:5;">"name5"</span>
+                                   <span style="--i:6;">"name6" <3</span>
+                                   <span style="--i:7;">"name7" :)</span>
+                                   <span style="--i:8;">"name8" >_< </span>
+                                   <span style="--i:9;">"name9" <3</span>
+                                   <span style="--i:10;">"name10" XD</span>
+                                   
+                                </p>
+                           </div>
+                       </div>
+                    </div>
+                </section>
+               
+               <!-- CHETAN ANANDA REDDY KUKUTLA -->
+               
+               <script>
+                        const txts=document.querySelector(".animate-text").children,
+                              txtsLen=txts.length;
+                          let index=0;
+                         const textInTimer=3000,
+                               textOutTimer=2800;
+               
+                        function animateText() {
+                           for(let i=0; i<txtsLen; i++){
+                             txts[i].classList.remove("text-in","text-out");  
+                           }
+                           txts[index].classList.add("text-in");
+               
+                           setTimeout(function(){
+                               txts[index].classList.add("text-out");              
+                           },textOutTimer)
+               
+                           setTimeout(function(){
+               
+                             if(index == txtsLen-1){
+                                 index=0;
+                               }
+                              else{
+                                  index++;
+                                }
+                               animateText();
+                           },textInTimer); 
+                        }
+                        
+                        window.onload=animateText;
+                  
+               </script>
+                                                    <!-- CHETAN ANANDA REDDY KUKUTLA -->
+                
+            </div>
+            <div style="margin-top: 4%;margin-left: 2%;"><a href="./messageweb.html">lets get stared</a></div>
+        <div class="surface">
+        </div>
+        <div class="car">
+            <img src="./Img_06.png">
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="magic.js"></script>
+    <!-- CHETAN ANANDA REDDY KUKUTLA -->
+</body>
+</html>

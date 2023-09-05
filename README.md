@@ -1,5 +1,4 @@
-# Greeting_card
-This is a greeting card with a message page which is led by a click on lets get stared button. 
+# Greeting_card 
 so, it was a close friends birthday and i wannted to wish him in a diffrent way but had very less time to come up with a idea that is unique 
 then i decided to make a website greeting him for his birthday and so i have came up with this 
 and then i thought to write a short message too so i have created a href that led to a messgae web
